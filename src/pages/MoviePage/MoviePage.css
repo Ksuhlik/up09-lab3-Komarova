@@ -1,0 +1,38 @@
+.movie-page{
+    display: grid;
+    gap: 50px;
+    padding: 50px;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    width: 1300px;
+    grid-template-columns: 1fr 1fr
+}
+.right{
+    color: lightgray;
+    text-align: left;
+    width: 600px;
+    font-size: x-large;
+}
+.left{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: end;
+}
+.left img {
+    border-radius: 20px;
+}
+.down{
+    color: goldenrod;
+    text-align: left;
+    width: 600px;
+    font-size: 16px;
+}
+.button{
+    margin-top: 10%;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+#btn{
+    width: 200px;
+}
